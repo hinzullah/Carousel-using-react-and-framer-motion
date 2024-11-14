@@ -3,9 +3,9 @@
   font-style: 1rem;
   text-align: center;
   padding-bottom: 2rem;
-  font-family: "Oswald" sans-serif;
+  font-family: "Oswald", sans-serif;
 }
-.carousel {
+.carousel-images {
   position: relative;
   border-radius: 10px;
   height: 400px;
@@ -44,16 +44,17 @@
   right: 0;
 }
 .indicator {
-  display: flex;
   margin-top: 20px;
+  display: flex;
   justify-content: center;
   gap: 20px;
 }
-.indicator .dot {
-  background: #333;
+.dot {
+  background-color: #333;
   width: 15px;
-  height: 150px;
+  height: 15px;
   border-radius: 50%;
+  cursor: pointer;
 }
 .active {
   background-color: #fa2020;
